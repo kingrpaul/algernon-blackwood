@@ -81,6 +81,7 @@ ul li p {
   font-style: italic;
 }
 
+li.card a:first-of-type,
 li.title a:first-of-type{
   font-size: 1em;
   font-variant: small-caps;
@@ -97,16 +98,23 @@ li p {
 /*  STORY STATUS................................ */
 /* ............................................. */
 
+li.card.working a:first-of-type,
 li.title.working a:first-of-type{
   color:blue;    
   text-decoration:underline;
 }
+
+li.card.read a:first-of-type::after,
 li.title.read a:first-of-type::after {
   content: " ⊕";
 }
+
+li.card.complete a:first-of-type,
 li.title.complete a:first-of-type {
   color:DarkGreen;
 }
+
+li.card.skip a:first-of-type,
 li.title.skip a:first-of-type {
   color:DarkRed;
   text-decoration: line-through;
