@@ -4,7 +4,7 @@
 /* BANNER....................................... */
 /* ............................................. */
 
-/* table.banner {
+table.banner {
 	width: 100%; 
 	padding:1em;
 	background-color:#1a1a1a;
@@ -26,15 +26,15 @@
 
 .banner img {
 	display:inline-block;
-} */
+}
 
 /* ............................................. */
 /* SUMMARY...................................... */
 /* ............................................. */
-/* body header td{
+body header td{
 	margin: 0; padding:0;
   font-size: 1.2em;
-} */
+}
 
 /* ............................................. */
 /* YEAR DIVIDER................................. */
@@ -55,9 +55,9 @@ ul header.year-divider{
 /* ............................................. */
 /*  STORY....................................... */
 /* ............................................. */
-/* ul li {
+ul li {
 	margin-top: 0.5em;
-} */
+}
 
 ul li,
 ul li a,
@@ -70,20 +70,20 @@ ul li p {
 
 
 ul li a {
-  /* font-size: 0.8em; */
+  font-size: 0.8em;
   font-variant: small-caps;
   text-decoration: none;
   width: fit-content;
 }
 
 ul li p {
-  /* font-size: 0.9em; */
+  font-size: 0.9em;
   font-style: italic;
 }
 
 li.card a:first-of-type,
 li.title a:first-of-type{
-  /* font-size: 1em; */
+  font-size: 1em;
   font-variant: small-caps;
   margin-left: 0;
 }
@@ -101,7 +101,7 @@ li p {
 li.card.working a:first-of-type,
 li.title.working a:first-of-type{
   color:blue;    
-  /* text-decoration:underline; */
+  text-decoration:underline;
 }
 
 li.card.read a:first-of-type::after,
@@ -127,8 +127,3 @@ li.title.skip a:first-of-type {
 a[href='']{
   display:none;
 }
-
-.gutenburg::before {
-  content: "[Gutenburg] ";
-}
-
