@@ -127,3 +127,8 @@ li.title.skip a:first-of-type {
 a[href='']{
   display:none;
 }
+
+.gutenburg::before {
+  content: "[Gutenburg] ";
+}
+
