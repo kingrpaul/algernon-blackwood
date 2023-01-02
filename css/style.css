@@ -15,13 +15,9 @@ ul header.year-divider{
   margin: 0.5em 2em 0.5em 0;
 }
 
-
 /* ............................................. */
 /*  STORY....................................... */
 /* ............................................. */
-/* ul li {
-	margin-top: 0.5em;
-} */
 
 ul li,
 ul li a,
@@ -32,26 +28,22 @@ ul li p {
 }
 
 ul li a {
-  /* font-size: 0.8em; */
   font-variant: small-caps;
   text-decoration: none;
   width: fit-content;
 }
 
 ul li p {
-  /* font-size: 0.9em; */
   font-style: italic;
 }
 
 li.card a:first-of-type,
 li.title a:first-of-type{
-  /* font-size: 1em; */
   font-variant: small-caps;
   margin-left: 0;
 }
 
 li p {
-  /* hashtags and summary */
   padding: 0;
   margin: 0;
 }
@@ -63,7 +55,6 @@ li p {
 li.card.working a:first-of-type,
 li.title.working a:first-of-type{
   color:blue;    
-  /* text-decoration:underline; */
 }
 
 li.card.read a:first-of-type::after,
@@ -81,7 +72,6 @@ li.title.skip a:first-of-type {
   color:DarkRed;
   text-decoration: line-through;
 }
-
 
 /* ............................................. */
 /*  STAGING AREA................................ */
