@@ -83,4 +83,6 @@ a[href='']{
 .gutenburg::before {
   content: "[Gutenburg] ";
 }
-
+/* 
+--fg: #1c1b20;
+--bg: #fffdd4; */
