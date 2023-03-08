@@ -1,18 +1,19 @@
 @charset "utf-8";
+:root {
+  --fg: #181D31;
+  --bg: #FEFCF3;
+  --ax: #FC8210;
+}
+
+html {
+  background-color: var(--bg) !important; 
+}
 
 /* ............................................. */
 /* YEAR DIVIDER................................. */
 /* ............................................. */
-ul header.year-divider{
-  list-style-type: none;
-  background-color: #dddddd; 
-  color: #1a1a1a;
-  border: 1px solid #ccc;
-  font-weight: bold;
-  font-size: 1.2em;
-  text-align: center;
-  padding: 0.2em auto 0.2em auto;
-  margin: 0.5em 2em 0.5em 0;
+ul h3.text-light {
+  font-size: 1.3em !important;
 }
 
 /* ............................................. */
@@ -22,10 +23,20 @@ ul header.year-divider{
 ul li,
 ul li a,
 ul li p {
-  color: black;
+  color: var(--fg);
   display: block;
   margin-left: 1em;
+  
 }
+
+a.fs-4 {
+  line-height: 1.2;
+}
+
+.card {
+  border: 1px dotted var(--ax);
+}
+
 
 ul li a {
   font-variant: small-caps;
@@ -83,6 +94,3 @@ a[href='']{
 .gutenburg::before {
   content: "[Gutenburg] ";
 }
-/* 
---fg: #1c1b20;
---bg: #fffdd4; */
