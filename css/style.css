@@ -94,3 +94,11 @@ a[href='']{
 .gutenburg::before {
   content: "[Gutenburg] ";
 }
+
+
+ul li.card > a.card-title {
+  margin-bottom: 0;
+  margin-top: 0.2em;
+  font-size: 1.2em;
+
+}
