@@ -102,3 +102,8 @@ ul li.card > a.card-title {
   font-size: 1.2em;
 
 }
+
+ul li.card > p.card-text {
+  font-size: 0.95em !important;
+  line-height: 1;
+}
