@@ -73,6 +73,7 @@ li.title.read a:first-of-type::after {
   content: " ⊕";
 }
 
+.card.complete a:first-of-type,
 li.card.complete a:first-of-type,
 li.title.complete a:first-of-type {
   color:DarkGreen;
