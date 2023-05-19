@@ -79,11 +79,52 @@ li.title.complete a:first-of-type {
   color:DarkGreen;
 }
 
+li.card.skip {
+  background-color: lightpink;
+}
+
 li.card.skip a:first-of-type,
 li.title.skip a:first-of-type {
   color:DarkRed;
   text-decoration: line-through;
 }
+
+li.card.fiction > a:first-of-type::after {
+  content: "🇫";
+  font-size: 0.8em;
+  color: transparent;
+  text-shadow: 0 0 0 grey;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+li.card.non-fiction > a:first-of-type::after {
+  content: "🇳"; 
+  font-size: 0.8em;
+  color: transparent;
+  text-shadow: 0 0 0 grey;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+li.card.fiction-assumed > a:first-of-type::after {
+  content: "🇫❓"; 
+  font-size: 0.8em;
+  color: transparent;
+  text-shadow: 0 0 0 grey;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+li.card.verse > a:first-of-type::after {
+  content: "🇻"; 
+  font-size: 0.7em;
+  color: transparent;
+  text-shadow: 0 0 0 grey;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 
 /* ............................................. */
 /*  STAGING AREA................................ */
