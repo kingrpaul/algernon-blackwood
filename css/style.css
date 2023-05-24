@@ -107,15 +107,6 @@ li.card.non-fiction > a:first-of-type::after {
   margin-right: 1em;
 }
 
-li.card.fiction-assumed > a:first-of-type::after {
-  content: "🇫❓"; 
-  font-size: 0.8em;
-  color: transparent;
-  text-shadow: 0 0 0 grey;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
 li.card.verse > a:first-of-type::after {
   content: "🇻"; 
   font-size: 0.7em;
@@ -124,6 +115,16 @@ li.card.verse > a:first-of-type::after {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+li.card.children > a:first-of-type::after {
+  content: "🇨"; 
+  font-size: 0.7em;
+  color: transparent;
+  text-shadow: 0 0 0 grey;
+  margin-left: 1em; 
+  margin-right: 1em;
+}
+
 
 
 /* ............................................. */
