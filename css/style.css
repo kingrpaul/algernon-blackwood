@@ -89,7 +89,7 @@ li.title.skip a:first-of-type {
   text-decoration: line-through;
 }
 
-li.card.fiction > a:first-of-type::after {
+/* li.card.fiction > a:first-of-type::after {
   content: "🇫";
   font-size: 0.8em;
   color: transparent;
@@ -123,7 +123,7 @@ li.card.children > a:first-of-type::after {
   text-shadow: 0 0 0 grey;
   margin-left: 1em; 
   margin-right: 1em;
-}
+} */
 
 li div{
   background-color:lightyellow;
