@@ -86,7 +86,7 @@ li.card.skip {
 li.card.skip a:first-of-type,
 li.title.skip a:first-of-type {
   color:DarkRed;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
 
 /* li.card.fiction > a:first-of-type::after {
