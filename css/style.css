@@ -101,3 +101,21 @@ ul li.card > p.card-text {
   font-size: 0.95em !important;
   line-height: 1;
 }
+
+
+
+/* ............................................. */
+/*  INLINE GALLERY.............................. */
+/* ............................................. */
+
+li div.container-fluid {
+  background-color: inherit;
+}
+
+#in-the-jura-neuchatel img, 
+#our-adventure-with-the-danube-river-police img {
+ max-width: 10em;
+ max-height: 5em; 
+ margin:1px;
+ border:1px solid grey;
+}
