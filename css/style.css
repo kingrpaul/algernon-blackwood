@@ -112,8 +112,7 @@ li div.container-fluid {
   background-color: inherit;
 }
 
-#in-the-jura-neuchatel img, 
-#our-adventure-with-the-danube-river-police img {
+li img {
  max-width: 10em;
  max-height: 5em; 
  margin:1px;
