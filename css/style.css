@@ -108,11 +108,13 @@ ul li.card > p.card-text {
 /*  INLINE GALLERY.............................. */
 /* ............................................. */
 
-li div.container-fluid {
+li div.container-fluid,
+div.container-fluid#portrait-gallery {
   background-color: inherit;
 }
 
-li img {
+li img,
+div.container-fluid#portrait-gallery img{
  max-width: 10em;
  max-height: 5em; 
  margin:1px;
